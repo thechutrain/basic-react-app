@@ -1,2 +1,6 @@
-// let's go!
-alert("yooooo");
+import React from 'react';
+import { render } from 'react-dom';
+
+import Main from './components/Main.js';
+
+render(<Main/>, document.querySelector("#main"));
